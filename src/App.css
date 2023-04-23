@@ -1,0 +1,42 @@
+
+input
+{
+  font-size: 1.0rem;
+  outline: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
+input:focus
+{
+  text-decoration: none;
+}
+input:focus-within
+{
+  border: 2px solid blue;
+}
+.App
+{
+  height: 100vh; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn
+{
+  cursor: pointer;
+  border-radius: 0.9rem;
+  width: 100px;
+  height: 30px;
+}
+.btn:hover
+{
+   color: white;
+   background-color: black;
+   border: none;
+}
+td,th
+{
+  display: relative;
+}
+
